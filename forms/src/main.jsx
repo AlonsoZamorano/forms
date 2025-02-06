@@ -9,8 +9,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <Routes>
-      <Route path="/login" Component={LoginPage} />
-      <Route path="/" Component={HomePage} />
+      <Route path="/" Component={LoginPage} />
+      <Route path="/home" Component={HomePage} />
       <Route path="/form" Component={FormPage} />
     </Routes>
   </BrowserRouter>
