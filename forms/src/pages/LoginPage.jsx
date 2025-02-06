@@ -11,7 +11,7 @@ export const LoginPage = () => {
 
   const handleSubmit = (e) => {
     if (userName === 'Lucky' && password === 'Alonso') {
-      navigate('/');
+      navigate('/home');
     } else {
       alert('Invalid credentials');
     }
